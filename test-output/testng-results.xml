@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T16:34:27 IST" name="Default suite" finished-at="2022-05-26T16:34:50 IST" duration-ms="22829">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T16:34:27 IST" name="Default test" finished-at="2022-05-26T16:34:50 IST" duration-ms="22829">
+      <class name="TestCases.verifySignin">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.verifySignin@306e95ec]" started-at="2022-05-26T16:34:27 IST" name="launchBrowser" finished-at="2022-05-26T16:34:34 IST" duration-ms="7095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="enterCredentials(java.lang.String,java.lang.String)[pri:0, instance:TestCases.verifySignin@306e95ec]" started-at="2022-05-26T16:34:34 IST" name="enterCredentials" data-provider="demo" finished-at="2022-05-26T16:34:35 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test007@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hide07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TestCases.verifySignin@306e95ec]" started-at="2022-05-26T16:34:35 IST" name="launchBrowser" finished-at="2022-05-26T16:34:44 IST" duration-ms="8976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="enterCredentials(java.lang.String,java.lang.String)[pri:0, instance:TestCases.verifySignin@306e95ec]" started-at="2022-05-26T16:34:44 IST" name="enterCredentials" data-provider="demo" finished-at="2022-05-26T16:34:50 IST" duration-ms="6244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1907@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secure07]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCredentials -->
+      </class> <!-- TestCases.verifySignin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
